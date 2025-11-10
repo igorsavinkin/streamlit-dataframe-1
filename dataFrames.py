@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("Igor Savinkin's simple Streamlit add to mock DataFrame!")
+st.title("Igor Savinkin's simple Streamlit app with a mocking DataFrame!")
 st.write("Streamlit can show [dataframes](https://docs.streamlit.io/develop/api-reference/data) with hundred thousands of rows, images, sparklines –- and even supports editing and sorting! ✍️")
 
 num_rows = st.slider("Number of rows", 1, 10000, 500)
